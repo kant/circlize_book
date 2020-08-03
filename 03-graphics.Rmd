@@ -25,7 +25,7 @@ regions in the circle.
 
 ## Setting colors
 
-Color is a major aesthetic element to map to the data points. In **circliez** there are
+Color is a major aesthetic element to map to the data points. In **circlize** there are
 two functions that provides customization of colors.
 
 `colorRamp2()` provides an exact way for mapping continuous values. users specify a vector
@@ -38,7 +38,7 @@ col_fun = colorRamp2(c(-2, 0, 2), c("blue", "white", "red"))
 col_fun(seq(-5, 1, by = 1)) # all the values smaller than -2 are all mapped to blue
 ```
 
-`rand_color()` implements the algorithem of [randomColor.js](https://github.com/davidmerfield/randomColor).
+`rand_color()` implements the algorithm of [randomColor.js](https://github.com/davidmerfield/randomColor).
 See the following example:
 
 ```{r, fig.width = 6, fig.height = 5.4}
